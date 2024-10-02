@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preload" href="./assets/bootstrapicon/bootstrap-icons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<link rel="stylesheet" href="./assets/bootstrapicon/bootstrap-icons.min.css">
+	<link rel="icon" href="./assets/images/Health_logo.webp" type="image/x-icon">
+    <script src="./assets/tailwind/tailwind.js"></script>
+    <title>Healthy Living Tips</title>
+</head>
+<body>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|| NAVBAR SECTION START ||~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<header class="fixed w-full  z-[10] py-[20px] ">
+	<div class="container mx-auto">
+		<div class="flex items-center justify-between">
+            <div class="flex justify-center items-center gap-[10px]">
+                <div class="bg-logo bg-cover bg-center w-[40px] h-[40px] md:w-[50px] md:h-[50px]"></div>
+                <div>
+                    <a href="javascript:;" title="Docmed" class="text-3xl font-extrabold">HealthHub</a>
+                </div>
+            </div>
+		<div class="md:flex items-center justify-center text-lg font-[600] gap-[20px] hidden
+         transition-all ease-in-out ">
+			<a href="javascript:;" class="hover:text-[#009DFF] duration-700"  title="Home">Home</a>
+			<a href="javascript:;" class="hover:text-[#009DFF] duration-700" title="Department">Department</a>
+			<a href="javascript:;" class="hover:text-[#009DFF] duration-700" title="About Us">About Us</a>
+			<a href="javascript:;" class="hover:text-[#009DFF] duration-700" title="Doctors">Doctors</a>
+			<a href="javascript:;" class="hover:text-[#009DFF] duration-700" title="Contact">Contact</a>
+		</div>
+		
+		<a href="javascript:;" title="menu" class="md:hidden  flex cursor-pointer text-[30px]">
+                <i class="bi bi-list" id="menuicon"></i>
+            </a>
+		</div>
+	</div>
+</header>
+<!-- MOBILE NAV START-->
+	<div class="md:hidden fixed w-[100%] h-screen bg-gray-200 flex items-center justify-center transition-all ease-in-out duration-500 z-[3] top-0 right-[-100%] text-center"
+            id="section">
+        <div class="flex flex-col gap-5 text-lg font-[600]">
+			<a href="javascript:;" class="hover:text-[#009DFF] duration-700"  title="Home">Home</a>
+			<a href="javascript:;" class="hover:text-[#009DFF] duration-700" title="Department">Department</a>
+			<a href="javascript:;" class="hover:text-[#009DFF] duration-700" title="About Us">About Us</a>
+			<a href="javascript:;" class="hover:text-[#009DFF] duration-700" title="Doctors">Doctors</a>
+			<a href="javascript:;" class="hover:text-[#009DFF] duration-700" title="Contact">Contact</a>
+        </div>          
+    </div>
+<!-- MOBILE NAV END -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|| NAVBAR SECTION END ||~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->   
+ 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|| HERO SECTION START ||~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--> 
+    <section class="overflow-hidden m-0">
+            <div class="bg-banner3 bg-cover bg-center md:bg-top w-full h-screen">
+                <div class="container mx-auto">
+                    <div class="flex justify-center items-center md:items-start flex-col h-screen w-full">
+                        <h3 class="text-[35px] md:text-[45px] lg:text-[70px] leading-[3.8rem] text-[#1F1F1F] font-extrabold">
+                            Health Care
+                        </h3>
+                        <span class="text-[35px] md:text-[45px] lg:text-[70px] text-[#1F1F1F] font-light">
+                            For Hole Family
+                        </span>
+                        <p class="text-sm lg:text-lg text-[#727272] mb-[40px] text-center md:text-left">
+                            In healthcare sector, service excellence is the facility of <br> the hospital as
+                            healthcare service provider to consistently.
+                        </p>
+                        <span class="text-white font-medium hover:text-[#009DFF] border border-[#009DFF] bg-gradient-to-r from-[#0181f5] to-[#5db2ff] py-4 px-4 lg:px-8 rounded-lg hover:bg-gradient-to-r hover:from-white hover:to-white cursor-pointer transition-all ease-in-out duration-500">
+                            Check Our Services
+                        </span>
+                    </div>
+                </div>
+            </div>
+    </section>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|| HERO SECTION END ||~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--> 
+ 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|| THREE CARD SECTION START ||~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<section class="bg-[#83C4FF]">
+	<div class="md:container md:mx-auto">
+		<div class="flex justify-center items-center flex-wrap w-full">
+			<div class="w-full md:w-1/2 lg:w-1/3">
+				<div class="py-[40px] px-[10px] lg:px-[30px] text-white">
+					<div class="mb-2 text-center lg:text-left">
+						<i class="bi bi-pc-display-horizontal text-[45px]"></i>
+					</div>
+					<div class="text-2xl font-semibold text-center lg:text-left">
+						Hospitality
+					</div>
+					<p class="text-base leading-[28px] text-center lg:text-left mt-2 mb-8">
+						Clinical excellence must be the priority for any health care service provider.
+					</p>
+					<div class="text-center lg:text-left">
+						<a href="javascript:;" aria-label="Apply For A Bed" title="Apply for a bed" class="text-center lg:text-left text-sm font-medium tracking-wide border border-white bg-transparent hover:bg-white hover:text-[#009DFF] py-2.5 px-6 rounded-lg transition-all ease duration-500">
+							Apply For A Bed
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="w-full md:w-1/2 lg:w-1/3 md:bg-transparent lg:bg-[#5DB2FF] bg-[#5DB2FF]">
+				<div class="py-[40px] px-[10px] lg:px-[30px] text-white">
+					<div class="mb-2 text-center lg:text-left">
+						<i class="bi bi-telephone-plus text-[45px]"></i>
+					</div>
+					<div class="text-2xl font-semibold text-center lg:text-left">
+						Emergency Care
+					</div>
+					<p class="text-base leading-[28px] text-center lg:text-left mt-2 mb-8">
+						Clinical excellence must be the priority for any health care service provider.
+					</p>
+					<div class="text-center lg:text-left">
+						<a href="javascript:;" aria-label="+91 672 356 3567" title="Number" class="text-center lg:text-left text-sm font-medium tracking-wide border border-white bg-transparent hover:bg-white hover:text-[#009DFF] py-2.5 px-6 rounded-lg transition-all ease duration-500">
+							+91 672 356 3567
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="w-full md:w-1/2 lg:w-1/3">
+				<div class="py-[40px] px-[10px] lg:px-[30px] text-white">
+					<div class="mb-2 text-center lg:text-left">
+						<i class="bi bi-cassette text-[45px]"></i>
+					</div>
+					<div class="text-2xl font-semibold text-center lg:text-left">
+						Chamber Service
+					</div>
+					<p class="text-base leading-[28px] text-center lg:text-left mt-2 mb-8">
+						Clinical excellence must be the priority for any health care service provider.
+					</p>
+					<div class="text-center lg:text-left">
+						<a href="javascript:;" aria-label="Make An Appointment" title="Appointment" class="text-center lg:text-left text-sm font-medium tracking-wide border border-white bg-transparent hover:bg-white hover:text-[#009DFF] py-2.5 px-6 rounded-lg transition-all ease duration-500">
+							Make An Appointment
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|| THREE CARD SECTION END ||~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|| Welcome To Docmed Section Start ||~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<section class="py-[3rem] md:py-[5rem]">
+	<div class="container mx-auto">
+		<div class="flex justify-center items-start flex-wrap flex-col lg:flex-row w-full gap-[30px] md:gap-[80px] lg:mb-20">
+			<div class="w-full lg:w-[calc(50%_-_40px)] relative">
+				<div class="bg-dental_1 w-full md:w-[325px] h-[310px] md:h-[395px] bg-center bg-cover"></div>
+				<div class="bg-dental_2 w-[325px] h-[395px] bg-center bg-cover absolute right-4 bottom-[-80px] hidden md:block"></div>
+			</div>
+			<div class="w-full lg:w-[calc(50%_-_40px)]">
+				<span class="text-xl ">
+					Welcome to Docmed
+					<div class="w-[60px] h-[2px] bg-[#009DFF] mt-1"></div>
+				</span>
+				
+				<div class="mt-8 mb-4 text-[30px] md:text-[36px] leading-[1.2em] text-[#1f1f1f] font-[500]">
+					Best Care For Your <br> Good Health
+				</div>
+				<p class="text-[#727272] text-base leading-[28px] font-[300] mb-7">
+					Esteem spirit temper too say adieus who direct esteem. It esteems luckily or picture placing drawing. Apartments frequently or motionless on reasonable projecting expression.
+				</p>
+				<ul class="mb-12 text-[#727272] font-[300]">
+					<li class="mb-2">
+						<i class="bi bi-check-circle text-[#009DFF] mr-2"></i>
+						Apartments frequently or motionless.
+					</li>
+					<li class="mb-2">
+						<i class="bi bi-check-circle text-[#009DFF] mr-2"></i>
+						Duis aute irure dolor in reprehenderit in voluptate.
+					</li>
+					<li class="mb-2">
+						<i class="bi bi-check-circle text-[#009DFF] mr-2"></i>
+						Voluptatem quia voluptas sit aspernatur.
+					</li>
+				</ul>
+				<a href="javascript:;" aria-label="Lean More" title="Leanmore" class="text-base text-[#009DFF] hover:text-white border border-[#009DFF] bg-transparent hover:bg-[#009DFF] py-2.5 px-5 rounded-md transition-all ease duration-500">
+					Lean More
+				</a>
+				
+			</div>
+		</div>
+	</div>
+</section>    
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|| Welcome To Docmed Section End ||~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->    
+    
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|| Our Departments Section Start ||~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->  
+<section class="py-[3rem] md:py-[5rem] bg-[#F5FBFF]">
+	<div class="container mx-auto">
+		<div class="flex justify-center items-center flex-col w-full md:w-[70%] lg:w-[50%] mx-auto mb-[55px]">
+			<span class="text-[2rem] md:text-4xl font-[500] ">
+				Our Departments
+			</span>
+			<div class="w-[60px] h-[2px] bg-[#009DFF] mt-4"></div>
+			<p class="text-base text-center mt-4 text-[#727272] tracking-wide font-light">
+				Esteem spirit temper too say adieus who direct esteem.
+				It esteems luckily or picture placing drawing.
+			</p>
+		</div>
+		<div class="flex justify-center items-center gap-[20px] flex-wrap">
+			<div class="w-full md:w-[calc(50%_-_13.33px)] lg:w-[calc(33.33%_-_13.33px)] bg-white rounded-t-lg group">
+				<div class="overflow-hidden rounded-t-lg group">
+					<div class="bg-departments_1 bg-center bg-cover w-full h-[247px] group-hover:scale-110 transition-all ease duration-500"></div>
+				</div>
+				<div class="p-[30px]">
+					<div class="text-2xl text-black font-[500]">
+						Eye Care
+					</div>
+					<p class="my-3.5 text-base text-[#727272] leading-[28px] font-[300]">
+						Esteem spirit temper too say adieus who direct esteem.
+					</p>
+					<a href="javascript:;" aria-label="Learn more" title="Learn more" class="text-[#5DB2FF] text-base hover:underline hover:text-[#009dff]">
+						Learn More
+					</a>
+				</div>
+			</div>
+			<div class="w-full md:w-[calc(50%_-_13.33px)] lg:w-[calc(33.33%_-_13.33px)] bg-white rounded-t-lg group">
+				<div class="overflow-hidden rounded-t-lg group">
+					<div class="bg-departments_2 bg-center bg-cover w-full h-[247px] group-hover:scale-110 transition-all ease duration-500"></div>
+				</div>
+				<div class="p-[30px]">
+					<div class="text-2xl text-black font-[500]">
+						Physical Therapy
+					</div>
+					<p class="my-3.5 text-base text-[#727272] leading-[28px] font-[300]">
+						Esteem spirit temper too say adieus who direct esteem.
+					</p>
+					<a href="javascript:;" aria-label="Learn more" title="Learn more" class="text-[#5DB2FF] text-base hover:underline hover:text-[#009dff]">
+						Learn More
+					</a>
+				</div>
+			</div>
+			<div class="w-full md:w-[calc(50%_-_13.33px)] lg:w-[calc(33.33%_-_13.33px)] bg-white rounded-t-lg group">
+				<div class="overflow-hidden rounded-t-lg group">
+					<div class="bg-departments_3 bg-center bg-cover w-full h-[247px] group-hover:scale-110 transition-all ease duration-500"></div>
+				</div>
+				<div class="p-[30px]">
+					<div class="text-2xl text-black font-[500]">
+						Dental Care
+					</div>
+					<p class="my-3.5 text-base text-[#727272] leading-[28px] font-[300]">
+						Esteem spirit temper too say adieus who direct esteem.
+					</p>
+					<a href="javascript:;" aria-label="Learn more" title="Learn more" class="text-[#5DB2FF] text-base hover:underline hover:text-[#009dff]">
+						Learn More
+					</a>
+				</div>
+			</div>
+			<div class="w-full md:w-[calc(50%_-_13.33px)] lg:w-[calc(33.33%_-_13.33px)] bg-white rounded-t-lg group">
+				<div class="overflow-hidden rounded-t-lg group">
+					<div class="bg-departments_4 bg-center bg-cover w-full h-[247px] group-hover:scale-110 transition-all ease duration-500"></div>
+				</div>
+				<div class="p-[30px]">
+					<div class="text-2xl text-black font-[500]">
+						Diagnostic Test
+					</div>
+					<p class="my-3.5 text-base text-[#727272] leading-[28px] font-[300]">
+						Esteem spirit temper too say adieus who direct esteem.
+					</p>
+					<a href="javascript:;" aria-label="Learn more" title="Learn more" class="text-[#5DB2FF] text-base hover:underline hover:text-[#009dff]">
+						Learn More
+					</a>
+				</div>
+			</div>
+			<div class="w-full md:w-[calc(50%_-_13.33px)] lg:w-[calc(33.33%_-_13.33px)] bg-white rounded-t-lg group">
+				<div class="overflow-hidden rounded-t-lg group">
+					<div class="bg-departments_5 bg-center bg-cover w-full h-[247px] group-hover:scale-110 transition-all ease duration-500"></div>
+				</div>
+				<div class="p-[30px]">
+					<div class="text-2xl text-black font-[500]">
+						Skin Surgery
+					</div>
+					<p class="my-3.5 text-base text-[#727272] leading-[28px] font-[300]">
+						Esteem spirit temper too say adieus who direct esteem.
+					</p>
+					<a href="javascript:;" aria-label="Learn more" title="Learn more" class="text-[#5DB2FF] text-base hover:underline hover:text-[#009dff]">
+						Learn More
+					</a>
+				</div>
+			</div>
+			<div class="w-full md:w-[calc(50%_-_13.33px)] lg:w-[calc(33.33%_-_13.33px)] bg-white rounded-t-lg group">
+				<div class="overflow-hidden rounded-t-lg group">
+					<div class="bg-departments_6 bg-center bg-cover w-full h-[247px] group-hover:scale-110 transition-all ease duration-500"></div>
+				</div>
+				<div class="p-[30px]">
+					<div class="text-2xl text-black font-[500]">
+						Surgery Service
+					</div>
+					<p class="my-3.5 text-base text-[#727272] leading-[28px] font-[300]">
+						Esteem spirit temper too say adieus who direct esteem.
+					</p>
+					<a href="javascript:;" aria-label="Learn more" title="Learn more" class="text-[#5DB2FF] text-base hover:underline hover:text-[#009dff]">
+						Learn More
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>   
+ <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|| Our Departments Section End ||~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->    
+ 
+ <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|| Donec imperdiet Section Start ||~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->    
+ <section class="bg-cover bg-top w-full h-[600px] z-0 [background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('./assets//images/Banner_1.webp')]">
+	<div class="container mx-auto">
+	    <div class="h-[600px] flex justify-center items-center flex-col">
+	    	<div>
+	    	  	<i class="bi bi-quote text-5xl md:text-7xl text-white"></i>
+	    	</div>
+	    	<p class="text-center text-white text-[1rem] md:text-xl leading-[1.95rem_!important] tracking-wide font-bold my-6 w-full xl:w-[70%]">
+	    	  	Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.Fusce ac mattis nulla. Morbi eget ornare dui.
+	    	</p>
+	    	<div class="w-[60px] h-[2px] bg-white mt-5 font-bold"></div>
+	    	  	<p class="text-white text-sm mt-5 font-bold">
+	    	  		Jasprit Swetha
+	    	  	</p>
+	    	</div>
+	</div>
+</section>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|| Donec imperdiet Section End ||~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->  
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|| Leading edge care for Your family Section Start ||~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->   
+<section class=" bg-[#F5FBFF] overflow-hidden">
+    <div class="tabs flex flex-wrap w-full flex-col md:flex-row border-b pt-8 md:pt-0">
+        <div class="content bg-white w-full py-[60px]">
+            <div class="container mx-auto">
+                <div class="flex justify-center items-center flex-wrap gap-[30px] lg:gap-[40px] w-full">
+                  	<div class="w-full md:w-[calc(50%_-_15px)] lg:w-[calc(50%_-_20px)]">
+                  		<div class="bg-[#5DB2FF] w-20 h-20 rounded-full flex justify-center items-center">
+							<i class="bi bi-pc-display-horizontal text-[43px] text-white"></i>
+						</div>
+						<div class="my-5 text-xl font-medium text-[#1F1F1F]">
+							Leading edge care for Your family
+						</div>
+						<p class="text-base text-[#727272] font-[300] leading-7">
+							Esteem spirit temper too say adieus who direct esteem. It esteems luckily picture placing drawing. Apartments frequently or motionless on reasonable projecting expression.
+						</p>
+                  	</div>
+                  	<div class="w-full md:w-[calc(50%_-_15px)] lg:w-[calc(50%_-_20px)]">
+                  		<div class="bg-departments_4 bg-cover bg-center w-full md:w-[325px] lg:w-[440px] xl:w-[560px] h-[180px] md:h-[230px] lg:h-[330px] rounded-lg"></div>
+                  	</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|| Leading Edge Care For Your Family Section End ||~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->   
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|| Expert Doctors Section Start ||~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->   
+<section class="py-[3rem] md:py-[5rem] ">
+	<div class="container mx-auto">
+		<div class="mb-12">
+			<div class="text-[#1f1f1f1] text-2xl lg:text-4xl font-[500]">
+				Expert Doctors
+			</div>
+		</div>
+
+        <div class="w-full flex flex-wrap gap-10">
+    				<div class="bg-[#F5FBFF] hover:bg-[#5DB2FF] rounded-t-lg group w-full md:w-[calc(50%-30px)] lg:w-[calc(25%-30px)]">
+    					<div class="overflow-hidden rounded-t-lg">
+    						<div class="bg-doctor_4 bg-cover bg-center w-[320px] lg:w-[265px] h-[250px] group-hover:scale-105 transition-all ease duration-300"></div>
+    					</div>
+    					<div class="py-4 text-center">
+    						<div class="text-lg font-[600] text-[#1f1f1f] group-hover:text-white">
+    							John Micheal
+    						</div>
+    						<p class="text-sm text-[#919191] font-[300] group-hover:text-white">
+    							Neurologist
+    						</p>
+    					</div>
+    				</div>
+    			
+    				<div class="bg-[#F5FBFF] hover:bg-[#5DB2FF] rounded-t-lg group w-full md:w-[calc(50%-30px)] lg:w-[calc(25%-30px)]">
+    					<div class="overflow-hidden rounded-t-lg">
+    						<div class="bg-doctor_3 bg-cover bg-center w-[320px] lg:w-[265px] h-[250px] group-hover:scale-105 transition-all ease duration-300"></div>
+    					</div>
+    					<div class="py-4 text-center">
+    						<div class="text-lg font-[600] text-[#1f1f1f] group-hover:text-white">
+    							John Micheal
+    						</div>
+    						<p class="text-sm text-[#919191] font-[300] group-hover:text-white">
+    							Neurologist
+    						</p>
+    					</div>
+    				</div>
+    			
+    				<div class="bg-[#F5FBFF] hover:bg-[#5DB2FF] rounded-t-lg group w-full md:w-[calc(50%-30px)] lg:w-[calc(25%-30px)]">
+    					<div class="overflow-hidden rounded-t-lg">
+    						<div class="bg-doctor_2 bg-cover bg-center w-[320px] lg:w-[265px] h-[250px] group-hover:scale-105 transition-all ease duration-300"></div>
+    					</div>
+    					<div class="py-4 text-center">
+    						<div class="text-lg font-[600] text-[#1f1f1f] group-hover:text-white">
+    							John Micheal
+    						</div>
+    						<p class="text-sm text-[#919191] font-[300] group-hover:text-white">
+    							Neurologist
+    						</p>
+    					</div>
+    				</div>
+
+    				<div class="bg-[#F5FBFF] hover:bg-[#5DB2FF] rounded-t-lg group w-full md:w-[calc(50%-30px)] lg:w-[calc(25%-30px)]">
+    					<div class="overflow-hidden rounded-t-lg">
+    						<div class="bg-doctor_1 bg-cover bg-center w-[320px] lg:w-[265px] h-[250px] group-hover:scale-105 transition-all ease duration-300"></div>
+    					</div>
+    					<div class="py-4 text-center">
+    						<div class="text-lg font-[600] text-[#1f1f1f] group-hover:text-white">
+    							John Micheal
+    						</div>
+    						<p class="text-sm text-[#919191] font-[300] group-hover:text-white">
+    							Neurologist
+    						</p>
+    					</div>
+    				</div>
+	</div>
+</section>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|| Expert Doctors Section End ||~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--> 
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|| Footer Section Start ||~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--> 
+<footer class="bg-black py-[2rem]">
+	<div class="container mx-auto">
+		<div class="flex justify-center items-center text-center font-bold">
+			<p class="text-[#737373] text-[0.92rem] md:text-sm lg:text-base">
+				Copyright © 2024 All rights reserved | This template is made with  by 
+				<a href="javscript:;" aria-label="ABOSS" title="Aboss" class="text-[#0B88FB] font-semibold">NIJam</a>
+			</p>
+		</div>
+	</div>
+</footer>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|| Footer Section Start ||~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--> 
+
+<script>
+	var nav = document.querySelector("header");
+    window.addEventListener("scroll", function (event) {
+    	if (window.innerWidth < 768) {
+	        if (this.window.scrollY >= 100) {
+	        	nav.style.padding="10px 0px"
+	        	nav.style.top="0px"
+	            nav.style.transition = 'all';
+	            nav.style.transitionDuration = '0.7s';
+	            nav.style.transformStyle = 'ease-in';
+	            nav.style.backgroundColor = 'white';
+	            nav.style.boxShadow = '0px 10px 10px -17px #111';
+	
+	        }
+	        else {
+	        	nav.style.padding="20px 0px"
+	        	nav.style.top=""
+	            nav.style.transition = 'all';
+	            nav.style.transitionDuration = '0.7s';
+	            nav.style.transformStyle = 'ease-in';
+	            nav.style.backgroundColor = 'transparent';
+	            nav.style.boxShadow = 'none';
+	
+	        };
+    	}else
+    	{
+    		if (this.window.scrollY >= 100) {
+	        	nav.style.padding="20px 0px"
+	        	nav.style.top="0px"
+	            nav.style.transition = 'all';
+	            nav.style.transitionDuration = '0.7s';
+	            nav.style.transformStyle = 'ease-in';
+	            nav.style.backgroundColor = 'white';
+	            nav.style.boxShadow = '0px 10px 10px -17px #111';
+	
+	        }
+	        else {
+	        	nav.style.padding="20px 0px"
+	        	nav.style.top=""
+	            nav.style.transition = 'all';
+	            nav.style.transitionDuration = '0.7s';
+	            nav.style.transformStyle = 'ease-in';
+	            nav.style.backgroundColor = 'transparent';
+	            nav.style.boxShadow = 'none';
+	
+	        };
+    	}
+    	
+    });
+    
+ 	const menu = document.querySelector("#menuicon");
+    const menuSec = document.querySelector("#section");
+    const body =document.querySelector(".body");
+    menu.addEventListener('click', () => {
+        menuSec.classList.toggle('right');
+        if (menuSec.classList.contains('right')) {
+            menu.classList.remove('bi-list');
+            menu.classList.add('bi-x');
+            menuSec.classList.add('right-[0%]');
+           body.classList.add('overflow-hidden');
+        } else {
+            menu.classList.remove('bi-x');
+            menu.classList.add('bi-list');
+            menuSec.classList.remove('right-[0%]');
+             body.classList.remove('overflow-hidden');
+        }
+    })
+    
+     const menuSeca = document.querySelectorAll("#section a");
+     
+     menuSeca.forEach((menu)=>{
+     	menu.addEventListener('click',(e)=>{
+     		menuSec.classList.toggle('right');
+     		 menuSec.classList.remove('right-[0%]');
+     	let  men = document.querySelector("#menuicon");
+    		men.classList.remove('bi-x');
+     		 men.classList.add('bi-list');
+    			
+     	});
+     });
+    
+</script>
+
+</body>
+</html>
